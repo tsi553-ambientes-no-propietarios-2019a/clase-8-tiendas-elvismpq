@@ -16,7 +16,8 @@ $products = getProducts($conn);
 	<h1>Bienvenido <?php echo $_SESSION['user']['username']; ?></h1>
 	<h2>Tienda: <?php echo $_SESSION['user']['store']; ?></h2>
 
-	<a href="new_product.php">Añadir producto</a>
+	<a href="new_product.php">Añadir producto</a><br>
+	<a href="stores.php">Ver Tiendas</a>
 
 	<table>
 		<thead>
